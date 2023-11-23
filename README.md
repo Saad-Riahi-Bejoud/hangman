@@ -4,7 +4,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [License](#license)
 
 ## Description of the project: 
 Hangman Python is a console-based Hangman game implemented in Python. The aim of the project is to provide an interactive and enjoyable gaming experience where users can guess letters to uncover a hidden word. This project serves as a practical exercise for Python programming skills, including working with classes, methods, and user input validation.
