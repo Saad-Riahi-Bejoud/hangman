@@ -28,6 +28,3 @@ The project file structure is organized as follows:
 - Milestone_5.py: The main script containing the implementation of the Hangman game.
 - README.md: Documentation providing information about the project.
 
-License information
---
-This project is licensed under the AICore.
