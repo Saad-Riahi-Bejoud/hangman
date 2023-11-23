@@ -1,17 +1,13 @@
 import random
 
+
 class Hangman:
-    
     def __init__(self, word_list, num_lives=5):
-       
         self.word_list = word_list
         self.num_lives = num_lives
         self.list_of_guesses = []
-        
         self.word = random.choice(self.word_list)
-       
         self.word_guessed = ['_' for _ in range(len(self.word))]
-        
         self.num_letters = len(set(self.word))
 
     def check_guess(self, guess):
@@ -39,6 +35,7 @@ class Hangman:
                 self.list_of_guesses.append(guess)
                 break
 
+
 def play_game(word_list):
     num_lives = 5
     game = Hangman(word_list, num_lives)
@@ -57,5 +54,4 @@ def play_game(word_list):
 
 
 word_list = ["watermelon", "strawberry", "melon", "kiwi", "banana"]
-    
 play_game(word_list)
